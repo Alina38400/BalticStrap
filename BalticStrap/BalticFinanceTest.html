@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+        crossorigin="anonymous">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- My jS -->
+    <script src="js/switch.js"></script>
+    <title>The colour coded scale on the claims for the reserve uncertainty</title>
+
+</head>
+
+<body>
+    <div class="container sidenav1 ">
+        <h2 class="h2">baltic finance</h2>
+        <p>The colour coded scale on the claims for the reserve uncertainty</p>
+        <div class="form-group ">
+            <label for="SelectReserve" class="col-sm-3 control-label">Reserve uncertainty:</label>
+
+            <div class="col-sm-9 ">
+
+                <select class="form-control" id="SelectReserve" OnChange="ChangeStyle()">
+                    <option>Select</option>
+                    <option>6 - we fully expect a reserve but have no idea how big it might be</option>
+                    <option>5 - we are unsure if this is even a big claim</option>
+                    <option>4 - generally unsecure</option>
+                    <option>3 - somewhat unsure about the exact disability percentage</option>
+                    <option>2 - a little uncertain about the amount but generally in the correct area</option>
+                    <option>1 - very certain that our reserve is correct</option>
+                </select>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
