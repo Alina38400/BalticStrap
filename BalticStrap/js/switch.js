@@ -27,5 +27,4 @@ function ChangeStyle() {
             }
             break;
     }
-    ChangeDescription(lab);
 }
