@@ -23,9 +23,9 @@ function ChangeStyle() {
             break;
         default:
             {
-                document.getElementById("SelectReserve").style.backgroundColor = "#ffffff";
+               document.getElementById("SelectReserve").style.backgroundColor = "#ffffff";
             }
             break;
     }
-    ChangeDescription(lab);
+    
 }
